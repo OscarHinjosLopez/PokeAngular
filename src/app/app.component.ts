@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'poke-angular';
+  namePokemon : string | undefined
+
+  handlePokemonName(pokemonName: string): void {
+    this.namePokemon = pokemonName;
+  }
+
 }

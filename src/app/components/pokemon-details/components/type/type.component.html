@@ -1,0 +1,10 @@
+<div class="row">
+  <h6>Type</h6>
+  <mat-chip-set aria-label="Abilities Pokemon">
+    <mat-chip *ngFor="let type of types">
+      <span [ngStyle]="{'color' : pokemonService.setColorType(type.type.name)}">
+        {{type.type.name}}
+      </span>
+    </mat-chip>
+  </mat-chip-set>
+</div>

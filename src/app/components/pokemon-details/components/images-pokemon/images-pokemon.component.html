@@ -1,0 +1,14 @@
+<div class="row text-center">
+  <h6>Sprites for generation</h6>
+  <div class="col-12">
+    <mat-expansion-panel hideToggle *ngFor="let generation of versionEntries" class="my-3">
+      <mat-expansion-panel-header>
+        <mat-panel-title>{{ generation.generation }}</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div *ngFor="let game of generation.games">
+        <p>{{ game.name | titlecase }}</p>
+        <img [src]="game.url" [alt]="game.name">
+      </div>
+    </mat-expansion-panel>
+  </div>
+</div>
