@@ -11,6 +11,9 @@
 npm-debug.log
 yarn-error.log
 
+
+.gitignore
+
 # IDEs and editors
 .idea/
 .project
