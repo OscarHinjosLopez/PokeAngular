@@ -1,16 +1,13 @@
+// src/app/app.component.ts
 import { Component } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
+import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'poke-angular';
-  namePokemon : string | undefined
-
-  handlePokemonName(pokemonName: string): void {
-    this.namePokemon = pokemonName;
-  }
-
+  
 }

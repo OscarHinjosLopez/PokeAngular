@@ -1,0 +1,21 @@
+.card-shadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.btn-hover {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-hover:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  transform: translateY(-3px);
+}
+
+mat-icon {
+  vertical-align: middle;
+}
+
+.mr-2 {
+  margin-right: 8px;
+}

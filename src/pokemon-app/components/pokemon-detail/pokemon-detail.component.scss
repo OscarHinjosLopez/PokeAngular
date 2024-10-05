@@ -1,0 +1,54 @@
+.pokemon-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pokemon-details-card {
+  width: 600px;
+  margin: 0 auto;
+
+}
+
+.navigation-buttons-container {
+  position: absolute;
+  width: 80%;
+  /* Ajustar el ancho del contenedor para centrar los botones */
+  top: 50%;
+  transform: translateY(-50%);
+  /* Centrar los botones verticalmente */
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  /* Agregar margen para que no queden tan a los lados */
+}
+
+button {
+  min-width: 120px;
+}
+
+.pokemon-images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-image {
+  max-width: 150px;
+  margin: 0 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.stats-table {
+  width: 100%;
+  text-align: center;
+}
+
+.mat-header-cell,
+.mat-cell {
+  padding: 8px;
+}

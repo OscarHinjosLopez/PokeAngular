@@ -1,0 +1,32 @@
+.card-shadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.tab-style {
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.mat-tab-label {
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.mat-tab-label-active {
+  color: #ff4081; /* color para la pestaña activa */
+  border-bottom: 2px solid #ff4081; /* línea inferior de la pestaña activa */
+}
+
+.tab-content {
+  padding: 16px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 16px;
+}
+
+.mx-3 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
